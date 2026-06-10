@@ -1,0 +1,170 @@
+body {
+            
+            background-color: #f4f4f9;
+            color:black;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .renk{
+            text-decoration: none;
+            color:gray
+        }
+
+        
+        header {
+            background-color: red;
+            color: white;
+            padding: 20px 0px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 3px rgba(0,0,0,0.1);
+        }
+
+        .menu{
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto; 
+            display: flex;
+            justify-content: space-between; 
+            align-items: center; 
+        }
+
+        .logo-metni {
+            font-size: 1.6rem;
+            font-weight: bold;
+            color:white; 
+            text-decoration: none;
+            line-height: 1; 
+        }
+        .menu-linkleri {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .menu-linkleri li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .menu-linkleri li a:hover {
+            color:gray;
+        }
+
+        
+        .giris {
+            
+            
+            padding: 40px 20px; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            
+            color: midnightblue; 
+        }
+
+        .giris h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .giris p {
+            font-size: 1.2rem;
+            max-width: 600px;
+        }
+        .giris-resmi {
+            width: 100%;
+            max-width: 1000px; 
+            height: 500px;    
+            object-fit: cover; 
+            border-radius: 8px; 
+            margin-bottom: 20px; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+        }
+
+        
+        .icerik-kapsayici {
+            width: 90%;
+            max-width: 1200px;
+            margin: 50px auto;
+        }
+
+        .bolum-basligi {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 40px;
+            color: midnightblue;
+        }
+
+        .izgara-duzeni {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        
+        .bilgi-karti {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .bilgi-karti:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        }
+
+        .bilgi-karti img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .kart-icerigi {
+            padding: 20px;
+        }
+
+        .kart-basligi {
+            font-size: 1.25rem;
+            color: orange;
+            margin-bottom: 10px;
+        }
+
+        .kart-metni {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .buton{
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: midnightblue;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            transition: background 0.3s;
+        }
+
+        .buton:hover {
+            background-color: orange;
+        }
+
+        
+        footer {
+            background-color: midnightblue;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+       
+        
